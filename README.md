@@ -1,6 +1,8 @@
 # jira-markdown-link
 A simple extension to copy a link to the currently open JIRA ticket as formatted markdown.
 
+[Available on the Chrome Web Store](https://chrome.google.com/webstore/detail/copy-jira-issue-link-as-m/ddodimdmkjejnaknifbdadmkefibglco)
+
 For example: `[[TEST-3301]](https://mycompany.atlassian.net/browse/TEST-3301) My test ticket`
 
 ## Publishing
