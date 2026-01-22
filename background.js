@@ -1,7 +1,7 @@
 const injectedFunction = () => {
   const formatTitle = (text, url) => {
     return text
-      .replace(/^\[.+\]/, (match) => `${match}(${url})`)
+      .replace(/^\[[\w-]+\]/, (match) => `${match}(${url})`)
       .replace(/-[^-]*$/, '');
   };
 
